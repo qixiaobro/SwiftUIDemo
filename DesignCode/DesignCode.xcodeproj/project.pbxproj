@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E26FC3D24F6AA5200AA9D0C /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E26FC3C24F6AA5200AA9D0C /* MenuView.swift */; };
 		8E2E594E24F53E3C000F1A88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2E594D24F53E3C000F1A88 /* AppDelegate.swift */; };
 		8E2E595024F53E3C000F1A88 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2E594F24F53E3C000F1A88 /* SceneDelegate.swift */; };
 		8E2E595224F53E3C000F1A88 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2E595124F53E3C000F1A88 /* ContentView.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8E26FC3C24F6AA5200AA9D0C /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		8E2E594A24F53E3C000F1A88 /* DesignCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E2E594D24F53E3C000F1A88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E2E594F24F53E3C000F1A88 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				8E2E594D24F53E3C000F1A88 /* AppDelegate.swift */,
 				8E2E594F24F53E3C000F1A88 /* SceneDelegate.swift */,
 				8E2E595124F53E3C000F1A88 /* ContentView.swift */,
+				8E26FC3C24F6AA5200AA9D0C /* MenuView.swift */,
 				8E2E595324F53E3D000F1A88 /* Assets.xcassets */,
 				8E2E595824F53E3D000F1A88 /* LaunchScreen.storyboard */,
 				8E2E595B24F53E3D000F1A88 /* Info.plist */,
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E2E594E24F53E3C000F1A88 /* AppDelegate.swift in Sources */,
+				8E26FC3D24F6AA5200AA9D0C /* MenuView.swift in Sources */,
 				8E2E595024F53E3C000F1A88 /* SceneDelegate.swift in Sources */,
 				8E2E595224F53E3C000F1A88 /* ContentView.swift in Sources */,
 			);
