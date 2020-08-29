@@ -26,9 +26,16 @@ struct HomeView: View {
             .padding(.top, 30)
             
             ScrollView(.horizontal, showsIndicators: false) {//showsIndicators 滚动条
-                HStack(spacing: 30) { //spacing 元素间的距离
+                HStack(spacing: 20) { //spacing 元素间的距离
                     ForEach(sectionData) { item in
-                        SectionView(section: item)
+                        GeometryReader { geometry in
+                            SectionView(section: item)
+                                .rotation3DEffect(Angle(degrees: //从geometry获得的最小值是30 也就是边距
+                                    Double(geometry.frame(in: .global).minX - 30) / -20
+                                ), axis: (x: 0, y: 10.0, z: 0))
+                            
+                        }
+                        .frame(width: 275, height: 275)
                     }
                 }
                 .padding(30)
