@@ -17,6 +17,7 @@
 		8E448FEA24FA3D0F0099655C /* UpdateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E448FE924FA3D0F0099655C /* UpdateList.swift */; };
 		8E448FEC24FA4D920099655C /* UpdateDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E448FEB24FA4D920099655C /* UpdateDetail.swift */; };
 		8E448FEE24FA550F0099655C /* UpdateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E448FED24FA550F0099655C /* UpdateStore.swift */; };
+		8E448FF024FA5D370099655C /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E448FEF24FA5D370099655C /* TabBar.swift */; };
 		8EF1604C24F7EA29004D48D4 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF1604B24F7EA29004D48D4 /* Home.swift */; };
 		8EF1604E24F7FCB3004D48D4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF1604D24F7FCB3004D48D4 /* HomeView.swift */; };
 /* End PBXBuildFile section */
@@ -34,6 +35,7 @@
 		8E448FE924FA3D0F0099655C /* UpdateList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateList.swift; sourceTree = "<group>"; };
 		8E448FEB24FA4D920099655C /* UpdateDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateDetail.swift; sourceTree = "<group>"; };
 		8E448FED24FA550F0099655C /* UpdateStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateStore.swift; sourceTree = "<group>"; };
+		8E448FEF24FA5D370099655C /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		8EF1604B24F7EA29004D48D4 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		8EF1604D24F7FCB3004D48D4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,6 +79,7 @@
 				8E448FE924FA3D0F0099655C /* UpdateList.swift */,
 				8E448FEB24FA4D920099655C /* UpdateDetail.swift */,
 				8E448FED24FA550F0099655C /* UpdateStore.swift */,
+				8E448FEF24FA5D370099655C /* TabBar.swift */,
 				8E2E595324F53E3D000F1A88 /* Assets.xcassets */,
 				8E2E595824F53E3D000F1A88 /* LaunchScreen.storyboard */,
 				8E2E595B24F53E3D000F1A88 /* Info.plist */,
@@ -173,6 +176,7 @@
 				8EF1604E24F7FCB3004D48D4 /* HomeView.swift in Sources */,
 				8E2E595024F53E3C000F1A88 /* SceneDelegate.swift in Sources */,
 				8E2E595224F53E3C000F1A88 /* ContentView.swift in Sources */,
+				8E448FF024FA5D370099655C /* TabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +314,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"DesignCode/Preview Content\"";
+				DEVELOPMENT_TEAM = 739XLBM943;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = DesignCode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -329,6 +334,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"DesignCode/Preview Content\"";
+				DEVELOPMENT_TEAM = 739XLBM943;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = DesignCode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
