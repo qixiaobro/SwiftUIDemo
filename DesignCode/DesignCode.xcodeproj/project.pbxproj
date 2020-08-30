@@ -49,6 +49,7 @@
 		8E44902C24FBA3FA0099655C /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E44902B24FBA3FA0099655C /* DataStore.swift */; };
 		8E44902F24FBAC270099655C /* Contentful in Frameworks */ = {isa = PBXBuildFile; productRef = 8E44902E24FBAC270099655C /* Contentful */; };
 		8E44903124FBBC7E0099655C /* CourseStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E44903024FBBC7E0099655C /* CourseStore.swift */; };
+		8E44903324FBD24E0099655C /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E44903224FBD24E0099655C /* BlurView.swift */; };
 		8EF1604C24F7EA29004D48D4 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF1604B24F7EA29004D48D4 /* Home.swift */; };
 		8EF1604E24F7FCB3004D48D4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF1604D24F7FCB3004D48D4 /* HomeView.swift */; };
 /* End PBXBuildFile section */
@@ -97,6 +98,7 @@
 		8E44902924FB9EC60099655C /* PostList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostList.swift; sourceTree = "<group>"; };
 		8E44902B24FBA3FA0099655C /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 		8E44903024FBBC7E0099655C /* CourseStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseStore.swift; sourceTree = "<group>"; };
+		8E44903224FBD24E0099655C /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 		8EF1604B24F7EA29004D48D4 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		8EF1604D24F7FCB3004D48D4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -150,6 +152,7 @@
 				8E44902B24FBA3FA0099655C /* DataStore.swift */,
 				8E44902924FB9EC60099655C /* PostList.swift */,
 				8E448FEF24FA5D370099655C /* TabBar.swift */,
+				8E44903224FBD24E0099655C /* BlurView.swift */,
 				8E2E595324F53E3D000F1A88 /* Assets.xcassets */,
 				8E448FF524FAA83A0099655C /* Work_Sans */,
 				8E2E595824F53E3D000F1A88 /* LaunchScreen.storyboard */,
@@ -319,6 +322,7 @@
 				8E44902A24FB9EC60099655C /* PostList.swift in Sources */,
 				8E2E595224F53E3C000F1A88 /* ContentView.swift in Sources */,
 				8E44902624FB97EB0099655C /* CourseDetail.swift in Sources */,
+				8E44903324FBD24E0099655C /* BlurView.swift in Sources */,
 				8E448FF024FA5D370099655C /* TabBar.swift in Sources */,
 				8E44902424FB6C060099655C /* CourseList.swift in Sources */,
 			);
