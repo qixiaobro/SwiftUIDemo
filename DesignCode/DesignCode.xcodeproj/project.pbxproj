@@ -43,6 +43,7 @@
 		8E44902124FAA83A0099655C /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8E44900B24FAA83A0099655C /* OFL.txt */; };
 		8E44902224FAA83A0099655C /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8E44900C24FAA83A0099655C /* README.txt */; };
 		8E44902424FB6C060099655C /* CourseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E44902324FB6C060099655C /* CourseList.swift */; };
+		8E44902624FB97EB0099655C /* CourseDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E44902524FB97EB0099655C /* CourseDetail.swift */; };
 		8EF1604C24F7EA29004D48D4 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF1604B24F7EA29004D48D4 /* Home.swift */; };
 		8EF1604E24F7FCB3004D48D4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF1604D24F7FCB3004D48D4 /* HomeView.swift */; };
 /* End PBXBuildFile section */
@@ -86,6 +87,7 @@
 		8E44900B24FAA83A0099655C /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
 		8E44900C24FAA83A0099655C /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		8E44902324FB6C060099655C /* CourseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseList.swift; sourceTree = "<group>"; };
+		8E44902524FB97EB0099655C /* CourseDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetail.swift; sourceTree = "<group>"; };
 		8EF1604B24F7EA29004D48D4 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		8EF1604D24F7FCB3004D48D4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -127,6 +129,7 @@
 				8E448FF324FAA3880099655C /* Modifiers.swift */,
 				8EF1604B24F7EA29004D48D4 /* Home.swift */,
 				8E44902324FB6C060099655C /* CourseList.swift */,
+				8E44902524FB97EB0099655C /* CourseDetail.swift */,
 				8EF1604D24F7FCB3004D48D4 /* HomeView.swift */,
 				8E26FC3C24F6AA5200AA9D0C /* MenuView.swift */,
 				8E448FE924FA3D0F0099655C /* UpdateList.swift */,
@@ -291,6 +294,7 @@
 				8EF1604E24F7FCB3004D48D4 /* HomeView.swift in Sources */,
 				8E2E595024F53E3C000F1A88 /* SceneDelegate.swift in Sources */,
 				8E2E595224F53E3C000F1A88 /* ContentView.swift in Sources */,
+				8E44902624FB97EB0099655C /* CourseDetail.swift in Sources */,
 				8E448FF024FA5D370099655C /* TabBar.swift in Sources */,
 				8E44902424FB6C060099655C /* CourseList.swift in Sources */,
 			);
